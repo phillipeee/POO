@@ -9,8 +9,3 @@ function identificarmayoredad(){
     }
     
 }
-
-
-
-git config --global user.email "ianduran@liceovvh.cl"
-git config --global user.name "phillipe"
