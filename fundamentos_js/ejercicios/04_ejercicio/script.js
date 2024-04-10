@@ -7,14 +7,15 @@ function positivoNegativo()
     if (numero > 0){
         resultado = `el numero es positivo`
     } 
-    else if(numero < 0){
+    else if (numero < 0){
         resultado = `el numero es negativo`
     }
-    else{
+    else if(numero == 0){
         resultado = `el numero es igual a cero`
     }
-  
-    document.getElementById(`lista`).innerHTML = resultado; //getElementById es para seleccionar un elemento del documento por medio del valor del atributo id que se le haya asignado.
-                                                            //tecnicamente transforma el ejercicio en html
+    else{
+        resultado = `ingrese un valor valido`
+    }    
+    document.getElementById(`lista`).innerHTML = resultado; 
     
 }
